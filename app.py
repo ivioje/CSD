@@ -4,6 +4,7 @@ import nltk
 from nltk.stem import PorterStemmer
 import string
 from nltk.corpus import stopwords
+nltk.download('punkt')
 
 vectorizer = pickle.load(open('cvVectorizer (2).pkl', 'rb'))
 model = pickle.load(open('mnbModel (1).pkl', 'rb'))
