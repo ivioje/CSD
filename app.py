@@ -85,7 +85,7 @@ if selected == 'Home':
         st.markdown("------------------------------------------")
 
         st.markdown("##### YOUR INPUT:")
-        st.markdown(f"```{email}````")
+        st.markdown(f"```{email}")
 
 
 if selected == 'Email Examples':
