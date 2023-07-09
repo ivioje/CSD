@@ -39,7 +39,7 @@ selected = option_menu(
     }
 )
 
-st.sidebar.image('spam.jpg', caption='Spam', width=150)
+st.sidebar.image('Spam.jpg', caption='Spam', width=150)
 st.sidebar.markdown("""
             ### Building a Secure Big Data Environment to Detect Collaborative Spam
             ***
