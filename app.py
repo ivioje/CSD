@@ -71,14 +71,14 @@ if selected == 'Home':
         # 4. Display
         if prediction <= 50:
             st.markdown(
-                f"#### This email is {prediction: .2f}% Not Spam.")
+                f"#### This email Not Spam.")
         elif prediction > 50:
             st.markdown(f"#### This email is a Spam email.")
 
         st.markdown("------------------------------------------")
         st.markdown(
             f"""
-            ##### CONFIDENCE SCORE: {prediction: .2f}%
+            ##### PROBABILITY OF BEING A SPAM MAIL: {prediction: .2f}%
             """
         )
 
