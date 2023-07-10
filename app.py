@@ -71,7 +71,7 @@ if selected == 'Home':
         # 4. Display
         if prediction <= 50:
             st.markdown(
-                f"#### This email Not Spam.")
+                f"#### This email is Not Spam.")
         elif prediction > 50:
             st.markdown(f"#### This email is a Spam email.")
 
